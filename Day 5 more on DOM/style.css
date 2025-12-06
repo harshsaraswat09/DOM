@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height: 500px;
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    
+    position: absolute;
+}
+
+.card div{
+    overflow: hidden;
+    position: relative;
+    
+
+}
+
+.card img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.card h2{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+.card i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 80px;
+    opacity: 0;
+    /* background: linear-gradient(to right bottom, rgb(180, 11, 180), rgb(239,6,142)); */
+    background-image: url(https://imgs.search.brave.com/x-MVhdfoL42RQPqL1gyPrOIYnU_XBdkuU-A8uIygX1U/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9taW50/ZXIuaW8vYmxvZy9j/b250ZW50L2ltYWdl/cy8yMDIxLzA4L0hv/dy10by11c2UtQ29s/b3VyLUdyYWRpZW50/cy1mb3ItSW5zdGFn/cmFtLVN0b3JpZXMt/My5qcGc);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+    transform: translate(-50%, -50%) scale(0) rotate(-60deg);
+    transition: all cubic-bezier(.65, 1, .77, 1.44) 0.4s;
+
+}
